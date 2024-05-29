@@ -1909,20 +1909,20 @@ header h6+p {
 
 header.major h2 {
 	color: #274c77;
-	font-size: 3.5em;
+	font-size: 2.5em;
 }
 
 /* Subheader at the top */
-header.major h2+p {
+header.major h2+span {
 	color: #777;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	font-weight: 700;
 	margin-top: -0.75em;
-	margin-bottom: 1em;
+	margin-bottom: .75em;
 }
 
 #paragraph-one {
-	margin-bottom: .5em;
+	margin: .5em 0;
 }
 
 /* Form */
@@ -2835,7 +2835,7 @@ input[type="button"]:disabled,
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: #386641;
+	background: #2e6639;
 	color: #d2f2e9;
 	height: 100%;
 	overflow-y: auto;
