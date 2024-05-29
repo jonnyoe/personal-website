@@ -11,7 +11,9 @@
 		   #274c77
 		   #6096ba
 		   #a3cef1
-		   #8b8c89*/
+		   #8b8c89
+		   color: #386641;
+		   */
 
 html,
 body,
@@ -237,13 +239,15 @@ p {
 	margin: 0 0 2.25em 0;
 }
 
+/* Other headers */
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	color: #8b8c89;
+	color: #274c77;
 	font-weight: 700;
 	line-height: 1em;
 	margin: 0 0 0.5625em 0;
@@ -1823,7 +1827,9 @@ pre code {
 .container {
 	margin: 0 auto;
 	max-width: calc(100% - 4.5em);
-	width: 45em;
+	width: 50 em;
+	margin: 0 5em;
+
 }
 
 .container.xsmall {
@@ -1913,6 +1919,10 @@ header.major h2+p {
 	font-weight: 700;
 	margin-top: -0.75em;
 	margin-bottom: 1em;
+}
+
+#paragraph-one {
+	margin-bottom: .5em;
 }
 
 /* Form */
@@ -2495,6 +2505,7 @@ ul.actions.fit.stacked {
 ul.feature-icons {
 	list-style: none;
 	padding-left: 0;
+	margin-bottom: .5em;
 }
 
 ul.feature-icons li {
@@ -2809,6 +2820,7 @@ input[type="button"]:disabled,
 }
 
 /* Header */
+/* Pop up nav */
 
 #header {
 	display: -moz-flex;
@@ -2823,7 +2835,7 @@ input[type="button"]:disabled,
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: #6096ba;
+	background: #386641;
 	color: #d2f2e9;
 	height: 100%;
 	overflow-y: auto;
@@ -2924,7 +2936,7 @@ input[type="button"]:disabled,
 /* Nav border */
 
 #header>nav ul li {
-	border-top: solid 2px #6096ba;
+	border-top: solid 2px #386641;
 	display: block;
 	padding: 0;
 }
@@ -2943,7 +2955,7 @@ input[type="button"]:disabled,
 
 #header>nav ul li a.active {
 	background: #fff;
-	color: #274c77 !important;
+	color: #386641 !important;
 }
 
 #header>nav ul li:first-child {
