@@ -1878,6 +1878,11 @@ pre code {
 	}
 }
 
+/* blog-header */
+.blog-header {
+	margin-top: 100px;
+}
+
 /* Section/Article */
 
 section.special,
