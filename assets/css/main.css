@@ -1879,7 +1879,7 @@ pre code {
 }
 
 /* blog-header */
-.blog-header {
+#blog-header {
 	margin-top: 100px;
 }
 
